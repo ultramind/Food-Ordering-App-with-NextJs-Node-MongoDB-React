@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 200px);
+  display: flex;
+}
+
+.items{
+    flex: 1;
+    position: relative;
+}
+.motor{
+    font-size: 20px;
+    color: #fff;
+}
+.items:last-child{
+    padding: 0 10px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    flex:1;
+    margin: 0 10px;
+}
+.title{
+    font-size: 20px;
+    color: gold;
+}
+.text{
+    color: #fff;
+}
