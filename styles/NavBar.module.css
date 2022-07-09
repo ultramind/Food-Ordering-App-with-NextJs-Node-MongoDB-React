@@ -37,6 +37,11 @@
   flex:3;
 }
 
+.item:last-child{
+    justify-content: flex-end;
+    position: relative;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -44,7 +49,23 @@
   display: flex;
 }
 
-.item:nth-child(3) {
-  flex: 1;
-  justify-items: flex-end;
+.listItem{
+    margin: 20px;
+    font-weight: 500;
+}
+
+.counter{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-weight: bold;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    color: #ce421d;
+    
 }
