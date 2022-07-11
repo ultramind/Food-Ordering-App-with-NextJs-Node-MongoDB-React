@@ -1,0 +1,75 @@
+.container {
+  height: calc(100vh - 80px);
+  display: flex;
+}
+.left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+}
+.imgContainer {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.price {
+  color: #ce421d;
+  text-decoration: underline;
+}
+
+.desc {
+  font-size: 20px;
+  line-height: 30px;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+.size {
+  cursor: pointer;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  background: teal;
+  padding: 1px 5px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.add {
+  margin-top: 10px;
+}
+.add input {
+  width: 10%;
+  padding: 9px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background: #ce421d;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
